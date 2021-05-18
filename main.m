@@ -5,10 +5,9 @@
 %% Notes and Requirements 
 % (1).This code require CVX for optimization (http://cvxr.com/cvx/)
 % (2).Beware that large-sized image reconstruction might be memory and time intensive.
-% (3).To adapt to new data please update the sections "parameters" and "read and preprocess data"
-% (4).This is a legacy version of the code and will is not maintained.
-%     Please refer to https://github.com/dushanw/deep-tfm-vX.X 
-%     (vX.X is the version, eg. the current version is v1.0) for the latest version.
+% (3).Please download the 'Data_fig4.mat' from https://zenodo.org/record/4769097 (doi: 10.5281/zenodo.4769097)
+% (4).To adapt to new data please update the sections "parameters" and "read and preprocess data"
+% (5).This is a legacy version of the code. Please refer to https://github.com/dushanw/deep-tfm for the latest version.
 
 %% system setup
 clc; clear all; close all
